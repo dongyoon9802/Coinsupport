@@ -5206,3 +5206,6 @@ p {
 .function-summary {
   background-color: rgba(177, 176, 176, 0.082);
 }
+#mini-card-shadow:hover{
+  box-shadow: 0 10px 25px rgba(60, 72, 88, 0.15) !important;
+}
