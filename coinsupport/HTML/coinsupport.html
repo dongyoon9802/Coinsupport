@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>밸런스코인</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Premium Bootstrap 5 Landing Page Template" />
+        <meta name="keywords" content="Saas, Software, multi-uses, HTML, Clean, Modern" />
+        <meta name="author" content="Shreethemes" />
+        <meta name="email" content="support@shreethemes.in" />
+        <meta name="website" content="https://shreethemes.in" />
+        <meta name="Version" content="v3.2.0" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+        <!-- Slider -->
+        <link rel="stylesheet" href="css/tiny-slider.css"/>
+        <!-- Main Css -->
+        <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+        <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
+
+    </head>
+    <body>
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <a class="logo" href="coinsupport.html">
+                    <img src="images/logo-dark.png" height="24" class="logo-light-mode" alt="">
+                    <img src="images/logo-light.png" height="24" class="logo-dark-mode" alt="">
+                </a>
+                <div class="buy-button">
+                    <a href="auth-login.html" class="btn btn-primary">Log in</a>
+                </div><!--end login button-->
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-light">
+                        <li><a href="#main" class="sub-menu-item">Home</a></li>
+                        <li><a href="#detail" class="sub-menu-item korean-font-design">알아보기</a></li>
+                        <li><a href="#price" class="sub-menu-item korean-font-design">결제하기</a></li>
+                        <li><a href="#question" class="sub-menu-item korean-font-design">문의하기</a></li>
+                        <li><a href="#" class="sub-menu-item korean-font-design">이용하기</a></li>
+                    </ul>
+                    <!--end navigation menu-->
+
+                    <div class="buy-menu-btn d-none">
+                        <a href="https://1.envato.market/4n73n" target="_blank" class="btn btn-primary">Buy Now</a>
+                    </div><!--end login button-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!--메인베너디자인-->
+        <section class="bg-half-170 d-table w-100 it-home" style="background: url('images/chart.jpg') center center;" id="main">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 col-md-6 col-12">
+                            <div class="title-heading">
+                                <h1 class="fw-bold text-white title-dark mt-2 mb-3 korean-font-design">실시간 코인 분석 데이터<br>총 <span class="counter-value" data-target="1201827">1</span> 건</h1>
+                                <p class="para-desc text-white korean-font-design"style="margin-top: 50px;">수많은 백테스팅 결과로 검증 된 매매알고리즘을 이용해보세요! <br>경험 많은 트레이더의 매매기법을 알고리즘화 하여 완성한 최적의 보조지표입니다.</p>
+                                <div class="mt-4 pt-2">
+                                    <a href="#summary" class="btn btn-primary m-1 korean-font-design"> 알아보기</a>
+                                </div>
+                            </div>
+                        </div><!--end col-->
+    
+                        <div class="col-lg-5 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                            <div class="card shadow border-0 ms-lg-5"style="border-radius: 30px / 30px;">
+
+                                <div class="card-body" >
+                                    <h4 class="card-title text-center korean-font-design">무료회원가입</h4>  
+                                    <form class="login-form mt-4">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label korean-font-design">이름 <span class="text-danger">*</span></label>
+                                                    <div class="form-icon position-relative">
+                                                        <i data-feather="user" class="fea icon-sm icons"></i>
+                                                        <input type="text" class="form-control ps-5" placeholder="이름" name="s" required="">
+                                                    </div>
+                                                </div>
+                                            </div><!--end col-->
+    
+                                            <div class="col-md-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label  korean-font-design">이메일 <span class="text-danger">*</span></label>
+                                                    <div class="form-icon position-relative">
+                                                        <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                        <input type="email" class="form-control ps-5" placeholder="이메일" name="email" required="">
+                                                    </div>
+                                                </div>
+                                            </div><!--end col-->
+    
+                                            <div class="col-md-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label  korean-font-design">비밀번호 <span class="text-danger">*</span></label>
+                                                    <div class="form-icon position-relative">
+                                                        <i data-feather="key" class="fea icon-sm icons"></i>
+                                                        <input type="password" class="form-control ps-5" placeholder="비밀번호" required="">
+                                                    </div>
+                                                </div>
+                                            </div><!--end col-->
+    
+                                            <div class="col-md-12">
+                                                <div class="mb-3">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                        <label class="form-check-label korean-font-design" for="flexCheckDefault"><a href="#" class="text-primary">개인정보제공 동의</a></label>
+                                                    </div>
+                                                </div>
+                                            </div><!--end col-->
+    
+                                            <div class="col-md-12">
+                                                <div class="d-grid">
+                                                    <button class="btn btn-primary korean-font-design">가입</button>
+                                                </div>
+                                            </div><!--end col-->
+    
+                                            <div class="col-lg-12 mt-4 text-center">
+                                                <h6 class="korean-font-design">다른 방식으로 회원가입</h6>
+                                                <div class="row">
+                                                    <div class="col-6 mt-3">
+                                                        <div class="d-grid">
+                                                            <a href="javascript:void(0)" class="btn btn-light"><i class="mdi mdi-facebook text-primary"></i> Facebook</a>
+                                                        </div>
+                                                    </div><!--end col-->
+                                                    
+                                                    <div class="col-6 mt-3">
+                                                        <div class="d-grid">
+                                                            <a href="javascript:void(0)" class="btn btn-light"><i class="mdi mdi-google text-danger"></i> Google</a>
+                                                        </div>
+                                                    </div><!--end col-->
+                                                </div>
+                                            </div><!--end col-->
+    
+                                            <div class="mx-auto">
+                                                <p class="mb-0 mt-3"><small class="text-dark me-2 korean-font-design">이미 계정이 있으신가요?</small> <a href="auth-login.html" class="text-blue fw-bold">로그인</a></p>
+                                            </div>
+                                        </div><!--end row-->
+                                    </form>
+                                </div>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div> <!--end container-->
+        </section><!--end section-->
+        <!--메인베너디자인 끝-->
+
+        <!--서비스설명-->
+        <section class="section" style="margin-top: 100px;" id="detail">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4 text-blue">Blance Coin</h4>
+                            <h5 class="text-muted para-desc mx-auto mb-0 korean-font-design">간단하고 정확한 최고의 매매시스템</h5>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <!-------프로그램설명 1-------->
+                <div class="row justify-content-center" style="margin-bottom: 150px;" >
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card border-0 features feature-clean course-feature p-4 overflow-hidden shadow text-center" id="mini-card-shadow" >
+                            <div class="icons text-primary text-center mx-auto">
+                                <i class="uil uil-crosshair d-block rounded h3 mb-0"></i>
+                            </div>
+                            <div class="card-body p-0 mt-4">                                            
+                                <a href="javascript:void(0)" class="title h5 text-dark">Accuracy</a>
+                                <p class="text-muted mt-2 korean-font-design">검증된 알고리즘이 최적의 매매 시점을 포착해냅니다.</p>
+                                <a href="javascript:void(0)" class="text-primary read-more korean-font-design">문의하기 <i class="uil uil-angle-right-b"></i></a>
+                                <i class="uil uil-crosshair text-primary full-img"></i>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card border-0 features feature-clean course-feature p-4 overflow-hidden shadow text-center"id="mini-card-shadow">
+                            <div class="icons text-primary text-center mx-auto">
+                                <i class="uil uil-chart-line d-block rounded h3 mb-0"></i>
+                            </div>
+                            <div class="card-body p-0 mt-4">                                            
+                                <a href="javascript:void(0)" class="title h5 text-dark">Profit and loss ratio</a>
+                                <p class="text-muted mt-2">손익비를 극대화하는 것에 중점을 두어 수익을 극대화합니다. </p>
+                                <a href="javascript:void(0)" class="text-primary read-more korean-font-design">문의하기 <i class="uil uil-angle-right-b"></i></a>
+                                <i class="uil uil-chart-line text-primary full-img"></i>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card border-0 features feature-clean course-feature p-4 overflow-hidden shadow text-center"id="mini-card-shadow">
+                            <div class="icons text-primary text-center mx-auto">
+                                <i class="uil uil-dashboard d-block rounded h3 mb-0"></i>
+                            </div>
+                            <div class="card-body p-0 mt-4">                                            
+                                <a href="javascript:void(0)" class="title h5 text-dark">Fast</a>
+                                <p class="text-muted mt-2 korean-font-design">365일 실시간으로 원하는 종목의 차트를 분석하여 빠르게 신호를 전달합니다.</p>
+                                <a href="javascript:void(0)" class="text-primary read-more korean-font-design">문의하기 <i class="uil uil-angle-right-b"></i></a>
+                                <i class="uil uil-dashboard text-primary full-img"></i>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card border-0 features feature-clean course-feature p-4 overflow-hidden shadow text-center"id="mini-card-shadow">
+                            <div class="icons text-primary text-center mx-auto">
+                                <i class="uil uil-map-marker-plus d-block rounded h3 mb-0"></i>
+                            </div>
+                            <div class="card-body p-0 mt-4">                                            
+                                <a href="javascript:void(0)" class="title h5 text-dark">Convenient</a>
+                                <p class="text-muted mt-2 korean-font-design">언제 어디서나 누구나 쉽게 사용할 수 있는 시스템입니다.</p>
+                                <a href="javascript:void(0)" class="text-primary read-more korean-font-design">문의하기 <i class="uil uil-angle-right-b"></i></a>
+                                <i class="uil uil-map-marker-plus text-primary full-img"></i>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card border-0 features feature-clean course-feature p-4 overflow-hidden shadow text-center"id="mini-card-shadow">
+                            <div class="icons text-primary text-center mx-auto">
+                                <i class="uil uil-clock d-block rounded h3 mb-0"></i>
+                            </div>
+                            <div class="card-body p-0 mt-4">                                            
+                                <a href="javascript:void(0)" class="title h5 text-dark">Time</a>
+                                <p class="text-muted mt-2 korean-font-design">언제까지 하루종일 차트만 보실겁니까? 매매 알림 서비스로 시간을 절약하세요</p>
+                                <a href="javascript:void(0)" class="text-primary read-more korean-font-design">문의하다 <i class="uil uil-angle-right-b"></i></a>
+                                <i class="uil uil-clock text-primary full-img"></i>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card border-0 features feature-clean course-feature p-4 overflow-hidden shadow text-center"id="mini-card-shadow">
+                            <div class="icons text-primary text-center mx-auto">
+                                <i class="uil uil-lock-alt d-block rounded h3 mb-0"></i>
+                            </div>
+                            <div class="card-body p-0 mt-4">                                            
+                                <a href="javascript:void(0)" class="title h5 text-dark">Security & Privacy</a>
+                                <p class="text-muted mt-2 korean-font-design">혹시 모를 프로그램 오류에 전담 엔지니어가 실시간으로 관리합니다.</p>
+                                <a href="javascript:void(0)" class="text-primary read-more korean-font-design">문의하기 <i class="uil uil-angle-right-b"></i></a>
+                                <i class="uil uil-lock-alt text-primary full-img"></i>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+                <!-------프로그램 설명1 끝-------->
+
+            </div><!--end container-->
+
+            <!-------프로그램설명 2-------->
+            <div class="function-summary border-top border-bottom mt-5"id="summary">
+                <!-------노트북사진-------->
+                <div class="container mt-100 mt-60 pt-3">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <img src="images/crypto/lapy01.png" class="img-fluid" alt="">
+                    </div><!--end col-->
+
+                    <div class="col-lg-6 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title ms-lg-5">
+                            <h4 class="title mb-4 korean-font-design">최적화된 매매알고리즘</h4>
+                            <p class="text-muted korean-font-design">수 많은 백테스팅을 통해 안정화된 매매알고리즘이 실시간으로 매수, 매도 신호를 알려줍니다. 원하는 종목의 차트를 실시간으로 보여주면서 지난 매수매도 포인트까지 알 수 있는 보조지표입니다. </p>
+                            <ul class="list-unstyled text-muted korean-font-design">
+                                <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>이용자가 원하는 종목의 최적의 매매타점을 실시간으로 알려드립니다.</li>
+                                <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>합리적인 가격에 양질의 서비스를 경험 할 수 있습니다.</li>
+                            </ul>
+                            <a href="javascript:void(0)" class="mt-3 h6 text-primary">Find Out More <i class="uil uil-angle-right-b"></i></a>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+                </div><!--end container-->
+                <!-------노트북사진 끝-------->
+
+                <!-------핸드폰사진-------->
+                <div class="container mt-100 mt-60 pb-3">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title me-lg-5">
+                            <h4 class="title mb-4 korean-font-design">문자 알림 서비스</h4>
+                            <p class="text-muted korean-font-design">더이상 차트만 보면서 시간을 낭비하지 마세요! 원하는 종목의 매수매도 신호를 사이트 뿐만 아니라 문자를 통해서도 실시간으로 신호를 전달 받아 알려드립니다.</p>
+                            <ul class="list-unstyled text-muted korean-font-design">
+                                <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>언제 어디서나 원하는 종목의 매매 신호가 전달됩니다.</li>
+                                <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>시간이 지나도 언제 신호가 발생했는지 알 수 있습니다.</li>
+                            </ul>
+                            <a href="javascript:void(0)" class="mt-3 h6 text-primary">Find Out More <i class="uil uil-angle-right-b"></i></a>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-5 col-md-6 order-1 order-md-2">
+                        <img src="images/crypto/iphone.png" class="img-fluid" alt="">
+                    </div><!--end col-->
+                </div><!--end row-->
+                </div><!--end container-->
+                <!-------핸드폰사진 끝-------->
+            </div>
+            <!-------프로그램설명 2 끝-------->
+
+        </section><!--end section-->
+        <!--서비스간 끝-->
+
+
+        <!-------검증----->
+        <!-- counter Start -->
+        <section class="section">
+            <div class="container" style="padding-bottom: 100px;">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4 text-primary">Balance coin<span class="text-dark korean-font-design">의 놀라운 성과를 확인하세요!</span></h4>
+                            <h6 class="text-muted para-desc mx-auto mb-0 korean-font-design">아래의 수익률은 비트코인을 대표 사례로 들었습니다.</h6>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div>
+            <!--전체기간 수익률-->
+            <div id="verification" class="border-bottom" style="margin-bottom: 100px; padding-bottom: 100px;" >
+                
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-12 order-1 order-md-2">
+                            <img src="images/17toNow.png" class="img-fluid border-1" alt="">
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+    
+                <div class="container mt-100 mt-60">
+                    <div class="row justify-content-center bg-light shadow-md" id="counter" style="border-radius: 30px / 30px; padding-bottom: 50px; padding-top: 50px;">
+                        <div class="col-md-4 mt-4 pt-2 ">
+                            <div class="counter-box text-center px-lg-4">
+                                <h2 class="mb-0 text-danger display-4"><span class="counter-value" data-target="4190.72">3</span>%</h2>
+                                <h5 class="counter-head korean-font-design">순이익</h5>
+                                <p class="text-muted mb-0 korean-font-design">2017년 8월 1일부터 현재까지 백테스팅 결과 기록된 수익률입니다.</p>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+    
+                        <div class="col-md-4 mt-4 pt-2">
+                            <div class="counter-box text-center px-lg-4">
+                                <h2 class="mb-0 text-danger display-4"><span class="counter-value" data-target="145.05">1</span>%</h2>
+                                <h5 class="counter-head korean-font-design">최대수익</h5>
+                                <p class="text-muted mb-0 korean-font-design">백테스팅 결과 거래시에 기록한 최고 수익률입니다.</p>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+    
+                        <div class="col-md-4 mt-4 pt-2">
+                            <div class="counter-box text-center px-lg-4">
+                                <h2 class="mb-0 text-primary display-4"><span class="counter-value" data-target="-43.94">3</span>%</h2>
+                                <h5 class="counter-head korean-font-design">최대손실</h5>
+                                <p class="text-muted mb-0 korean-font-design">백테스팅 결과 기록된 최대 손실입니다. 최대수익의 절반도 못미치는 놀라운 손익비를 자랑합니다.</p>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+            <!--전체기간 수익률 끝-->
+
+            <!--하락횡보기간 수익률-->
+            <div id="verification" class="border-bottom" style="margin-bottom: 100px; padding-bottom: 100px;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-12 order-1 order-md-2">
+                            <img src="images/18-01 to 20-07.png" class="img-fluid border-1" alt="">
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+    
+                <div class="container mt-100 mt-60">
+                    <div class="row justify-content-center bg-light shadow-md" id="counter" style="border-radius: 30px / 30px; padding-bottom: 50px; padding-top: 50px;">
+                        <div class="col-md-4 mt-4 pt-2">
+                            <div class="counter-box text-center px-lg-4">
+                                <h2 class="mb-0 text-danger display-4"><span class="counter-value" data-target="183.17">3</span>%</h2>
+                                <h5 class="counter-head korean-font-design">순이익</h5>
+                                <p class="text-muted mb-0 korean-font-design">2018년 1월 1일부터 2020년 7월 1일까지 하락장에서 기록된 수익률입니다. <br> 하락장과 상승장을 가리지 않고 꾸준한 수익률을 자랑합니다.</p>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+    
+                        <div class="col-md-4 mt-4 pt-2">
+                            <div class="counter-box text-center px-lg-4">
+                                <h2 class="mb-0 text-danger display-4"><span class="counter-value" data-target="39.88">3</span>%</h2>
+                                <h5 class="counter-head korean-font-design">최대수익</h5>
+                                <p class="text-muted mb-0 korean-font-design">백테스팅 결과 하락장에서 기록한 최고 수익률입니다.</p>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+    
+                        <div class="col-md-4 mt-4 pt-2">
+                            <div class="counter-box text-center px-lg-4">
+                                <h2 class="mb-0 text-primary display-4"><span class="counter-value" data-target="-15.01">3</span>%</h2>
+                                <h5 class="counter-head korean-font-design">최대손실</h5>
+                                <p class="text-muted mb-0 korean-font-design">백테스팅 결과 하락장에서 기록된 최대손실입니다. 하락장에서도 탁월한 손익비 관리 능력을 자랑합니다.</p>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+            <!--하락횡보기간 수익률 끝-->
+
+            <!--횡보상승장 수익률-->
+            <div id="verification"style="margin-bottom: 100px;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-12 order-1 order-md-2">
+                            <img src="images/18-08tonow.png" class="img-fluid border-1" alt="">
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+    
+                <div class="container mt-100 mt-60">
+                    <div class="row justify-content-center bg-light shadow-md" id="counter" style="border-radius: 30px / 30px; padding-bottom: 50px; padding-top: 50px;">
+                        <div class="col-md-4 mt-4 pt-2">
+                            <div class="counter-box text-center px-lg-4">
+                                <h2 class="mb-0 text-danger display-4"><span class="counter-value" data-target="1481.87">3</span>%</h2>
+                                <h5 class="counter-head korean-font-design">순이익</h5>
+                                <p class="text-muted mb-0 korean-font-design">2018년 8월 1일부터 현재까지 횡보, 상승장세에서 기록된 수익률입니다. <br> 하락장과 상승장을 가리지 않고 꾸준한 수익률을 자랑합니다.</p>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+    
+                        <div class="col-md-4 mt-4 pt-2">
+                            <div class="counter-box text-center px-lg-4">
+                                <h2 class="mb-0 text-danger display-4"><span class="counter-value" data-target="82.78">3</span>%</h2>
+                                <h5 class="counter-head korean-font-design">최대수익</h5>
+                                <p class="text-muted mb-0 korean-font-design">백테스팅 결과 상승장에서 기록한 최고 수익률입니다.</p>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+    
+                        <div class="col-md-4 mt-4 pt-2">
+                            <div class="counter-box text-center px-lg-4">
+                                <h2 class="mb-0 text-primary display-4"><span class="counter-value" data-target="-12">3</span>%</h2>
+                                <h5 class="counter-head korean-font-design">최대손실</h5>
+                                <p class="text-muted mb-0 korean-font-design">백테스팅 결과 상승장에서 기록된 최대손실입니다. 상승장에서는 밸런스코인의 장점인 손익비가 극대화됩니다.</p>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+            <!--횡보상승장 수익률 끝-->
+        </section><!--end section-->
+        <!-- counter End -->
+        <!-----검증완료----->
+        
+        <!--후기섹션-->
+        <!-- Feature Start -->
+        <section class="section bg-light">
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-4 korean-font-design"><span class="text-primary fw-bold">밸런스코인</span>의 소중한 후기</h4>
+                            <p class="text-muted para-desc mx-auto mb-0 korean-font-design">저희 <span class="text-primary fw-bold">밸런스코인</span>과 함께 투자해보세요!</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 mt-4">
+                        <div class="tiny-three-item">
+                            <div class="tiny-slide">
+                                <div class="d-flex client-testi m-2">
+                                    <img src="images/client/01.jpg" class="avatar avatar-small client-image rounded shadow" alt="">
+                                    <div class="flex-1 content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "</p>
+                                        <h6 class="text-primary">- Thomas Israel <small class="text-muted">C.E.O</small></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slide">
+                                <div class="d-flex client-testi m-2">
+                                    <img src="images/client/02.jpg" class="avatar avatar-small client-image rounded shadow" alt="">
+                                    <div class="flex-1 content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star-half text-warning"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others. "</p>
+                                        <h6 class="text-primary">- Barbara McIntosh <small class="text-muted">M.D</small></h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="d-flex client-testi m-2">
+                                    <img src="images/client/03.jpg" class="avatar avatar-small client-image rounded shadow" alt="">
+                                    <div class="flex-1 content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. "</p>
+                                        <h6 class="text-primary">- Carl Oliver <small class="text-muted">P.A</small></h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="d-flex client-testi m-2">
+                                    <img src="images/client/04.jpg" class="avatar avatar-small client-image rounded shadow" alt="">
+                                    <div class="flex-1 content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero. "</p>
+                                        <h6 class="text-primary">- Christa Smith <small class="text-muted">Manager</small></h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="d-flex client-testi m-2">
+                                    <img src="images/client/05.jpg" class="avatar avatar-small client-image rounded shadow" alt="">
+                                    <div class="flex-1 content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" There is now an abundance of readable dummy texts. These are usually used when a text is required. "</p>
+                                        <h6 class="text-primary">- Dean Tolle <small class="text-muted">Developer</small></h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="d-flex client-testi m-2">
+                                    <img src="images/client/06.jpg" class="avatar avatar-small client-image rounded shadow" alt="">
+                                    <div class="flex-1 content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts. "</p>
+                                        <h6 class="text-primary">- Jill Webb <small class="text-muted">Designer</small></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- Feature End --><!--후기섹션 끝-->
+
+        <!-- Pricing Start -->
+        <section class="section" id="price">
+                    <div class="container">
+                        <div class="row mt-lg-4 align-items-center">
+                            <div class="col-lg-5 col-md-12 text-center text-lg-start">
+                                <div class="section-title mb-4 mb-lg-0 pb-2 pb-lg-0">
+                                    <h4 class="title mb-4 korean-font-design">합리적인 가격, 최적의 서비스</h4>
+                                    <p class="text-muted para-desc mx-auto mb-0 korean-font-design">지금 당장 더 나은 미래를 위해 <span class="text-primary fw-bold">밸런스코인</span>와 함께 투자하세요! 최적화된 매매 알고리즘이 여러분을 기다리고 있습니다.</p>
+                                    <a href="creditpage.html" target="_blank" class="btn btn-primary mt-4">Buy Now</a>
+                                </div>
+                            </div><!--end col-->
+        
+                            <div class="col-lg-7 col-md-12 mt-4 mt-lg-0 pt-2 pt-lg-0">
+                                <div class="ms-lg-5">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-6 col-12 px-md-0">
+                                            <div class="card pricing-rates starter-plan shadow rounded border-0">
+                                                <div class="card-body py-5">
+                                                    <h4 class="fw-bold text-uppercase text-primary mb-4">nomal</h4>
+                                                    <div class="d-flex mb-4">
+                                                        <span class="price h1 mb-0">45,000</span>
+                                                        <span class="h4 align-self-end mb-1">/mo</span>
+                                                    </div>
+            
+                                                    <ul class="list-unstyled mb-0 ps-0">
+                                                        <li class="h6 text-muted mb-0 korean-font-design"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>사이트 내 실시간 차트</li>
+                                                        <li class="h6 text-muted mb-0 korean-font-design text-decoration-line-through"><span class="text-primary h5 me-2"><i class="uil uil-x align-middle"></i></span>문자 메시지 서비스</li>
+                                                        <li class="h6 text-muted mb-0 korean-font-design"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>공부방 이용</li>
+                                                    </ul>
+                                                    <a href="creditpage.html" class="btn btn-primary mt-4">Buy Now</a>
+                                                </div>
+                                            </div>
+                                        </div><!--end col-->
+            
+                                        <div class="col-md-6 col-12 mt-4 pt-2 pt-sm-0 mt-sm-0 px-md-0">
+                                            <div class="card pricing-rates bg-light shadow rounded border-0">
+                                                <div class="card-body py-5">
+                                                    <h4 class="fw-bold text-uppercase text-primary mb-4">pro</h4>
+                                                    <div class="d-flex mb-4">
+                                                        <span class="price h1 mb-0">95,000</span>
+                                                        <span class="h4 align-self-end mb-1">/mo</span>
+                                                    </div>
+            
+                                                    <ul class="list-unstyled mb-0 ps-0">
+                                                        <li class="h6 text-muted mb-0 korean-font-design"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>사이트 내 실시간 차트</li>
+                                                        <li class="h6 text-muted mb-0 korean-font-design"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>문자 메시지 서비스</li>
+                                                        <li class="h6 text-muted mb-0 korean-font-design"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>공부방 이용</li>
+                                                    </ul>
+                                                    <a href="creditpage.html" class="btn btn-primary mt-4">Buy Now</a>
+                                                </div>
+                                            </div>
+                                        </div><!--end col-->
+                                    </div><!--end row-->
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end container-->
+        </section>
+        <!--end section-->
+
+
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-light">
+                <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M720 125L2160 0H2880V250H0V125H720Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- Pricing End -->
+        
+        <!-- FAQ n Contact Start -->
+        <section class="section bg-light" style="padding-bottom: 300px;" id="question">
+            <div class="container">
+                <div class="row">
+                    <div class="row my-md-5 pt-md-3 my-4 pt-2 pb-lg-4 justify-content-center">
+                        <div class="col-12 text-center">
+                            <div class="section-title">
+                                <h1 class="text-primary">F&Q</h1>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                    <div class="col-md-6 col-12"style="margin-bottom: 50px;">
+                        <div class="d-flex">
+                            <i data-feather="help-circle" class="fea icon-ex-md text-primary me-2 mt-1"></i>
+                            <div class="flex-1">
+                                <h5 class="mt-0 korean-font-design"><span class="text-primary">밸런스코인</span>은 무엇을 하나요?</h5>
+                                <p class="answer text-muted mb-0 korean-font-design">저희 밸런스코인은 이용자가 원하는 종목의 차트를 분석하여 최적의 매수매도 타이밍을 포착하는 보조지표 서비스를 영위합니다. 이와 함께 사용자의 편의를 위한 문자알림 서비스를 부가적으로 제공하고 있습니다.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0" style="margin-bottom: 50px;" >
+                        <div class="d-flex">
+                            <i data-feather="help-circle" class="fea icon-ex-md text-primary me-2 mt-1"></i>
+                            <div class="flex-1">
+                                <h5 class="mt-0 korean-font-design">어떻게 이용해야하나요?</h5>
+                                <p class="answer text-muted mb-0 korean-font-design">사이트내에 있는 이용하기 메뉴에 접속 후 원하는 종목을 선택해주시면 해당 종목의 차트와 밸런스코인의 보조지표가 함께 화면에 나타날 것입니다. 이때 저희 보조지표가 매수 혹은 매도 신호를 생성하면 참고하여 사용하시면 됩니다.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-md-6 col-12 mt-4 pt-2"style="margin-bottom: 50px;">
+                        <div class="d-flex">
+                            <i data-feather="help-circle" class="fea icon-ex-md text-primary me-2 mt-1"></i>
+                            <div class="flex-1">
+                                <h5 class="mt-0 korean-font-design">매매 알고리즘은 어떻게 만들어졌나요?</h5>
+                                <p class="answer text-muted mb-0 korean-font-design">저희 밸런스코인은 경험 많은 트레이더의 매매기법을 알고리즘화 하여 만든 보조지표입니다. 수 많은 백테스팅을 거쳐 만들어진 보조지표인 만큼 보다 정확한 매매 타이밍을 알려드립니다.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-md-6 col-12 mt-4 pt-2"style="margin-bottom: 50px;">
+                        <div class="d-flex">
+                            <i data-feather="help-circle" class="fea icon-ex-md text-primary me-2 mt-1"></i>
+                            <div class="flex-1">
+                                <h5 class="mt-0 korean-font-design"> 그래서 <span class="text-primary ">밸런스코인</span>만의 장점은 무엇인가요?</h5>
+                                <p class="answer text-muted mb-0 korean-font-design">간결함과 극대화되어 있는 손익비입니다. 아무리 승률이 높더라도 손익비 즉 평균손실과 평균수익의 비율이 높다면 높은 수익률을 기대하기 어려울 것입니다. 그러나 저희 밸런스코인은 수많은 백테스팅을 통해 검증의 과정을 거쳐 온 만큼 손익비 관리에 보다 탁월합니다.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-footer">
+                <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M720 125L2160 0H2880V250H0V125H720Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        
+        <!-- Footer Start -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                        <a href="#" class="logo-footer">
+                            <img src="images/logo-light.png" height="24" alt="">
+                        </a>
+                    </div><!--end col-->
+
+                    <div class="col-lg-8 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                        <p class="korean-font-design text-center">•회사명 : 밸런스코인  •주소 : 충남 천안시 동남구 옛시청길 29, 101동 3002호 <br>•대표자 : 김선율   •개인정보책임자 : 김선율  •사업자등록번호 : 248-23-01589 <br>•이메일 : panther43@daum.net  •결제문의 : 010-7118-5821</p>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer><!--end footer-->
+        <footer class="footer footer-bar">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <div class="text-sm-start">
+                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> 밸런스코인</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer><!--end footer-->
+        <!-- Footer End -->
+
+
+
+
+
+
+
+        <!-- javascript -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- SLIDER -->
+        <script src="js/tiny-slider.js "></script>
+        <!-- Icons -->
+        <script src="js/feather.min.js"></script>
+        <!-- Main Js -->
+        <script src="js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>
